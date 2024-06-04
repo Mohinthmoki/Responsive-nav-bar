@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="leo">
+        <h1>CARINO</h1>
+        <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Products</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="menu">
+        <div class="class menu-line"></div>
+        <div class="class menu-line"></div>
+        <div class="class menu-line"></div>
+    </div>
+
+ 
+    
+    <script>
+        const menu=document.querySelector(".menu")
+        const call=document.querySelector("ul")
+     menu.addEventListener('click',()=>{
+        call.classList.toggle('show')
+     })
+    </script>
+</body>
+</html>

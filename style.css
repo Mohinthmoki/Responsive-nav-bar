@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(img/andrew-neel-jtsW--Z6bFw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.leo{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(68, 67, 67);
+    position: relative;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  
+    
+}
+h1{
+    margin-left: 10px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    font-size: large;
+    margin-right: 10px;
+    cursor: pointer;
+}
+li:hover{
+   
+    background-color:rgba(128, 128, 128, 0.329) ;
+}
+.menu{
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0%;
+
+}
+.menu-line{
+    height: 2px;
+    width: 20px;
+    background-color: royalblue;
+    margin: 5px;
+}
+
+@media all and (max-width:635px) {
+.leo{
+    flex-direction: column;
+}
+.leo li{
+    display: block;
+}
+
+ul{
+    display: none;
+    padding: 0%;
+    text-align: center;
+   
+}
+
+.leo h1{
+    margin-left: 20px;
+}
+.menu{
+    display: block;
+    right: 10px;
+}
+.show{
+    display: block;
+}
+body{
+    background-size:100vh;
+
+}
+}
+
+
